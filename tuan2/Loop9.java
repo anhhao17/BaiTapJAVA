@@ -15,8 +15,7 @@ public class Main {
 		"or 'B' for option B.");
 		s = keyboard.next( );
 		s=s.toLowerCase( );
-		System.out.println(s);
-		System.out.println(c);
+		c=s.charAt(0);
 		}
 		while (!((c == 'a') || (c == 'b')));
 
